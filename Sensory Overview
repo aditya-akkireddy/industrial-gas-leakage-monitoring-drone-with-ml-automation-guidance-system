@@ -1,0 +1,168 @@
+# 🌍 Environmental Sensing System Overview
+
+The Environmental Sensing System provides spatial awareness, obstacle detection, and environmental perception capabilities for the proposed UAV-based industrial monitoring framework.
+
+This subsystem enhances the operational intelligence of the platform by enabling environmental mapping, obstacle identification, and situational awareness in hazardous industrial environments.
+
+The framework integrates LiDAR sensing, ultrasonic-based distance measurement, and visual sensing technologies to support safe navigation and intelligent environmental analysis.
+
+---
+
+# ⚙️ Environmental Sensing Architecture
+
+The environmental sensing framework consists of:
+
+- LiDAR-Based Spatial Mapping
+- Ultrasonic Obstacle Detection
+- Camera-Based Visual Feedback
+- Environmental Data Processing Layer
+
+These components collectively support environmental understanding and future autonomous navigation capabilities.
+
+---
+
+# 🧩 Core Components
+
+## LiDAR Sensor
+
+The LiDAR sensing module is responsible for:
+
+- 3D environmental mapping
+- Spatial data acquisition
+- Distance measurement
+- Hazard zone visualization
+- Environmental modeling
+
+The LiDAR framework captures spatial coordinates and environmental geometry to support structured representation of industrial environments.
+
+---
+
+## Ultrasonic Sensors
+
+The ultrasonic sensing layer provides:
+
+- Short-range obstacle detection
+- Distance estimation
+- Collision prevention support
+- Navigation assistance
+
+The sensors improve operational reliability in confined or low-visibility environments.
+
+---
+
+## Camera Module
+
+The visual sensing system enables:
+
+- Real-time visual feedback
+- Situational awareness
+- Environmental observation
+- Monitoring support
+- Visual interpretation of hazardous regions
+
+The camera subsystem complements spatial sensing and enhances environmental understanding.
+
+---
+
+# 📡 Operational Workflow
+
+The environmental sensing framework follows a layered sensing methodology.
+
+## Step 1 — Environmental Data Acquisition
+LiDAR, ultrasonic sensors, and onboard cameras continuously capture environmental information.
+
+## Step 2 — Spatial Mapping
+LiDAR-based sensing generates spatial representations of the monitored environment.
+
+## Step 3 — Obstacle Detection
+Ultrasonic sensors identify nearby obstacles and assist in safe navigation.
+
+## Step 4 — Visual Monitoring
+Camera modules provide visual environmental feedback for monitoring and analysis.
+
+## Step 5 — Environmental Modeling
+Integrated sensing data is processed to generate structured environmental representations.
+
+---
+
+# 🛰️ Spatial Mapping Framework
+
+The system associates environmental sensing data with spatial coordinates to support:
+
+- Hazard zone identification
+- Environmental visualization
+- Gas concentration mapping
+- Safe region estimation
+- Future autonomous navigation workflows
+
+The mapping framework establishes the foundation for intelligent environmental analysis and guidance generation.
+
+---
+
+# 🌍 Functional Capabilities
+
+The environmental sensing subsystem supports:
+
+- 3D environmental mapping
+- Real-time spatial awareness
+- Obstacle detection
+- Environmental visualization
+- Situational awareness
+- Hazard region representation
+- Navigation assistance
+- Environmental modeling
+
+---
+
+# 🔬 Integration with Monitoring Framework
+
+The environmental sensing layer is designed to integrate with:
+
+- UAV Platform
+- Gas Monitoring System
+- Telemetry Communication Framework
+- Machine Learning Guidance System
+- Ground Control Interface
+
+This integration enables unified environmental monitoring and intelligent hazard analysis.
+
+---
+
+# 📊 Environmental Data Processing
+
+The sensing framework processes:
+
+- LiDAR spatial coordinates
+- Ultrasonic distance measurements
+- Visual environmental inputs
+- Environmental mapping data
+
+The processed information supports environmental interpretation and future AI-based navigation systems.
+
+---
+
+# 🚀 Future Enhancements
+
+Future development areas include:
+
+- Autonomous obstacle avoidance
+- Real-time 3D mapping
+- SLAM-based navigation
+- Advanced sensor fusion
+- AI-assisted environmental analysis
+- Dynamic hazard visualization
+- Intelligent route planning
+- Multi-drone environmental coordination
+
+---
+
+# 📊 Current Development Status
+
+The environmental sensing framework is currently designed for integration with the UAV monitoring architecture.
+
+The subsystem establishes the foundation for:
+
+- Advanced environmental awareness
+- Spatial hazard analysis
+- Autonomous navigation support
+- Intelligent industrial monitoring systems
