@@ -1,0 +1,181 @@
+# ⛽ Gas Monitoring System Overview
+
+The Gas Monitoring System serves as the primary environmental sensing subsystem responsible for detecting hazardous gas concentrations in industrial environments.
+
+The system is designed to continuously monitor combustible and harmful gases using MQ-series gas sensors integrated with IoT-enabled communication modules for real-time data acquisition and wireless monitoring.
+
+The framework enables rapid gas leakage detection, remote environmental observation, and continuous transmission of sensor data to centralized monitoring interfaces.
+
+---
+
+# ⚙️ Gas Monitoring Architecture
+
+The gas monitoring architecture follows a linear sensing and communication pipeline consisting of:
+
+- Gas Sensing Unit
+- Data Processing Unit
+- Wireless Communication Layer
+- Real-Time Monitoring Interface
+
+The system continuously acquires gas concentration data, processes sensor outputs, and transmits environmental information through wireless communication modules.
+
+---
+
+# 🧩 Core Components
+
+## Gas Sensors
+
+### MQ-2 Sensor
+Used for detection of:
+- LPG
+- Smoke
+- Hydrogen
+- Methane
+
+### MQ-5 Sensor
+Used for detection of:
+- LPG
+- Natural Gas
+- Methane
+- Combustible gases
+
+The sensors operate based on variations in electrical resistance corresponding to gas concentration levels.
+
+---
+
+## Processing Unit
+
+### Arduino UNO
+The Arduino UNO functions as the central processing unit responsible for:
+- Reading analog sensor outputs
+- Processing gas concentration data
+- Performing analog-to-digital conversion
+- Managing sensor communication workflows
+
+---
+
+## Wireless Communication Modules
+
+### HC-05 Bluetooth Module
+Enables:
+- Short-range wireless communication
+- Mobile device connectivity
+- Real-time sensor observation through Bluetooth interfaces
+
+### NodeMCU ESP8266
+Provides:
+- Wi-Fi-based communication
+- IoT-enabled monitoring
+- Wireless data transmission
+- Remote dashboard integration
+
+---
+
+# 📡 Operational Workflow
+
+The gas monitoring system operates through the following workflow:
+
+## Step 1 — Gas Detection
+MQ-series sensors continuously monitor surrounding environmental conditions.
+
+## Step 2 — Sensor Data Acquisition
+Gas concentration variations generate analog voltage outputs proportional to detected gas intensity.
+
+## Step 3 — Data Processing
+The Arduino UNO processes sensor outputs and converts them into interpretable gas concentration values.
+
+## Step 4 — Wireless Transmission
+Processed data is transmitted through:
+- Bluetooth communication
+- Wi-Fi communication
+- IoT-based interfaces
+
+## Step 5 — Monitoring & Visualization
+Gas concentration readings are displayed on monitoring platforms for real-time observation and analysis.
+
+---
+
+# 📊 Sensor Data Analysis
+
+The sensing framework utilizes threshold-based classification for environmental evaluation.
+
+Gas concentration readings are categorized into:
+- Safe
+- Moderate
+- Hazardous
+
+This enables rapid identification of abnormal environmental conditions and supports emergency monitoring workflows.
+
+---
+
+# 🌍 Functional Capabilities
+
+The gas monitoring system supports:
+
+- Real-time gas leakage detection
+- Continuous environmental monitoring
+- Wireless sensor communication
+- Remote monitoring accessibility
+- Hazard threshold analysis
+- Gas concentration visualization
+- Industrial safety monitoring
+
+---
+
+# 📈 Experimental Testing
+
+The sensing framework was evaluated under multiple environmental conditions including:
+
+- Mess kitchen environments
+- Vehicle exhaust exposure
+- Aerosol-based perfume exposure
+- Incense smoke exposure
+- Mosquito repellent vapor exposure
+
+The tests demonstrated:
+- Stable sensor responsiveness
+- Continuous data acquisition
+- Real-time wireless monitoring
+- Effective gas concentration variation detection
+
+---
+
+# 🔬 System Integration
+
+The gas monitoring subsystem is designed to integrate with:
+
+- UAV Platform
+- Telemetry Communication Framework
+- Environmental Sensing Layer
+- Machine Learning Guidance System
+- Centralized Monitoring Interface
+
+This integration supports unified environmental monitoring and intelligent hazard analysis.
+
+---
+
+# 🚀 Future Enhancements
+
+Future development areas include:
+
+- Advanced gas classification models
+- Multi-sensor fusion
+- AI-assisted hazard prediction
+- Real-time cloud monitoring
+- Distributed IoT sensor networks
+- Enhanced gas concentration mapping
+- Autonomous environmental analysis
+
+---
+
+# 📊 Current Development Status
+
+The gas monitoring framework has been successfully validated for:
+
+- Real-time gas sensing
+- Wireless communication
+- Environmental data transmission
+- Continuous monitoring workflows
+- Sensor response analysis
+
+The subsystem establishes a strong foundation for intelligent industrial safety monitoring and future autonomous hazard detection systems.
