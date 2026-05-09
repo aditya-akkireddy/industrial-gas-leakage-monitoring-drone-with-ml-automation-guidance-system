@@ -1,0 +1,128 @@
+# 🚁 Drone Platform Overview
+
+The UAV platform serves as the aerial monitoring and deployment subsystem of the proposed industrial gas leakage detection framework. The drone is designed to operate in hazardous or inaccessible industrial environments where manual inspection may pose safety risks.
+
+The platform integrates flight control, propulsion, navigation, telemetry communication, and environmental sensing capabilities to support stable monitoring operations and real-time data acquisition.
+
+---
+
+# ⚙️ UAV Platform Architecture
+
+The drone architecture is structured into the following primary subsystems:
+
+- Flight Control System
+- Propulsion System
+- Power Distribution System
+- Navigation & Positioning System
+- Telemetry & Communication System
+
+These subsystems collectively enable controlled flight operation, real-time telemetry exchange, environmental monitoring, and future autonomous navigation support.
+
+---
+
+# 🧩 Core Components
+
+## Flight Controller
+- APM 2.8 Flight Controller
+- Responsible for flight stabilization and control processing
+- Handles roll, pitch, yaw, and throttle operations
+
+## Propulsion System
+- 4 × 1800KV Brushless Motors
+- 4 × 20A Electronic Speed Controllers (ESCs)
+- Enables stable lift generation and aerial maneuverability
+
+## Power System
+- 3300mAh LiPo Battery
+- Power Distribution Board (PDB)
+- Supplies regulated power to onboard subsystems
+
+## Navigation System
+- Ublox GPS Module
+- Supports positional tracking and navigation functionalities
+
+## Communication System
+- 433MHz Telemetry Module
+- FlySky FS-i6 Transmitter & Receiver
+- Enables bidirectional communication with the ground control station
+
+---
+
+# 📡 Telemetry & Communication
+
+The UAV utilizes telemetry communication for real-time transmission of:
+
+- Altitude data
+- Positional coordinates
+- Flight parameters
+- System status information
+
+The telemetry framework supports live monitoring and telemetry logging through the ground control station.
+
+---
+
+# 🛰️ Flight Control Methodology
+
+The drone operates using a closed-loop flight control architecture where sensor feedback and pilot inputs are continuously processed by the flight controller.
+
+The control system:
+- Processes flight commands
+- Adjusts motor speed dynamically
+- Maintains flight stability
+- Corrects orientation in real-time
+
+Stabilization is achieved using onboard gyroscopic and accelerometer-based feedback mechanisms.
+
+---
+
+# 🌍 Operational Capabilities
+
+The UAV platform supports:
+
+- Real-time environmental monitoring
+- Hazardous area inspection
+- Remote deployment in industrial environments
+- Stable hover and navigation
+- Sensor payload integration
+- Telemetry-based monitoring
+- Future autonomous operation support
+
+---
+
+# 🔬 Integration with Monitoring Framework
+
+The drone platform is designed to integrate with:
+
+- Gas Monitoring System
+- Environmental Sensing System
+- Machine Learning Guidance System
+- Telemetry & Ground Control Framework
+
+This enables unified environmental monitoring and centralized hazard analysis.
+
+---
+
+# 🚀 Future Enhancements
+
+Future development of the UAV platform includes:
+
+- Autonomous navigation
+- Multi-drone swarm coordination
+- Advanced obstacle avoidance
+- AI-assisted flight optimization
+- Real-time 3D environmental mapping
+- Dynamic path planning
+- Enhanced telemetry analytics
+
+---
+
+# 📊 Current Development Status
+
+The UAV platform has been successfully assembled and validated for:
+
+- Stable manual flight operation
+- Telemetry communication
+- GPS-based positioning
+- Basic navigation and monitoring workflows
+
+The platform establishes the foundation for future integration with intelligent sensing and guidance modules.
